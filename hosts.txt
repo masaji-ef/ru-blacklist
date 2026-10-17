@@ -1,7 +1,10 @@
-! Title: RU State & Gov Blocklist
+! Title: RU State & Gov Blocklist (improved)
 ! Description: Блокировка государственных порталов, госкорпораций и связанных сервисов РФ
 ! Syntax: AdBlock
-! Updated: 2026-10-15
+! Updated: 2026-10-17
+! Changes: добавлены CDN-домены (avito.st, wbbasket.ru, yastatic.net и т.д.),
+!          устранены дубликаты, добавлены госзакупки, суды, МФЦ, ЖКХ, ЕГЭ,
+!          расширены банки, телеком, маркетплейсы.
 
 ! --- Государственные порталы и сервисы ---
 ||gosuslugi.ru^
@@ -48,6 +51,37 @@
 ||arbitr.ru^
 ||sudrf.ru^
 
+! --- Госзакупки ---
+||zakupki.gov.ru^
+||rts-tender.ru^
+||sberbank-ast.ru^
+||roseltorg.ru^
+||etp-ets.ru^
+||zakupki.mos.ru^
+
+! --- Суды и правосудие ---
+||sudact.ru^
+||sud-praktika.ru^
+||sudrf.ru^
+||vsrf.ru^
+||arbitr.ru^
+
+! --- Штрафы, ГИБДД, МФЦ ---
+||gibdd.ru^
+||гибдд.рф^
+||xn--90adear.xn--p1ai^
+||штрафы.рф^
+||xn--80aebehcb1a.xn--p1ai^
+||mfc.ru^
+||моидокументы.рф^
+||xn--80aighcahqk.xn--p1ai^
+||md.mos.ru^
+
+! --- ЖКХ ---
+||dom.gosuslugi.ru^
+||gis-zhkh.ru^
+||zhkh.gov.ru^
+
 ! --- Госкорпорации и компании с госучастием ---
 ||rostec.ru^
 ||rosatom.ru^
@@ -55,8 +89,11 @@
 ||rusnano.com^
 ||rusnano.ru^
 ||vtb.ru^
+||vtb.com^
 ||sberbank.ru^
+||sberbank.com^
 ||sber.ru^
+||sbol.ru^
 ||gazprombank.ru^
 ||psbank.ru^
 ||rshb.ru^
@@ -85,21 +122,31 @@
 ! --- Связь, телеком, IT ---
 ||rt.ru^
 ||mts.ru^
+||mts.com^
 ||megafon.ru^
+||megafon.com^
 ||beeline.ru^
+||beeline.com^
 ||tele2.ru^
+||tele2.com^
 ||t2.ru^
 ||yota.ru^
+||yota.com^
 ||ertelecom.ru^
 ||dom.ru^
 ||mvg.ru^
 ||yandex.ru^
 ||yandex.net^
 ||yandex.com^
+||yandex.cloud^
 ||ya.ru^
+||yastatic.net^
 ||vk.com^
 ||vk.ru^
-||vkvideo.ru^
+||vk.me^
+||vk-cdn.net^
+||userapi.com^
+||mycdn.me^
 ||ok.ru^
 ||mail.ru^
 ||dzen.ru^
@@ -152,19 +199,27 @@
 ||uralsib.ru^
 ||homecredit.ru^
 ||tinkoff.ru^
+||tinkoff.com^
 ||tbank.ru^
+||tcsbank.ru^
 ||raiffeisen.ru^
 ||unicreditbank.ru^
 ||citibank.ru^
 
 ! --- Маркетплейсы, ритейл, агрегаторы ---
 ||ozon.ru^
+||ozon.com^
 ||p.ozon.ru^
 ||sentry.ozon.ru^
+||cdn1.ozone.ru^
 ||wildberries.ru^
+||wildberries.com^
 ||wb.ru^
+||wbbasket.ru^
+||wbstatic.net^
 ||marketplace-sentry.wb.ru^
 ||avito.ru^
+||avito.st^
 ||cian.ru^
 ||domclick.ru^
 ||kuper.ru^
@@ -188,7 +243,6 @@
 ||vgtrk.ru^
 ||russia.tv^
 ||rt.com^
-||rt.ru^
 ||tass.ru^
 ||tass.com^
 ||ria.ru^
@@ -208,6 +262,9 @@
 ||minobrnauki.gov.ru^
 ||mon.gov.ru^
 ||school.ru^
+||school.edu.ru^
+||ege.edu.ru^
+||gia.edu.ru^
 ||mos.ru^
 ||gosuslugi.mos.ru^
 ||mosreg.ru^
@@ -225,11 +282,8 @@
 ||stanislavsky-season.ru^
 
 ! --- Медицина, здравоохранение, соцфонд ---
-||sfr.gov.ru^
-||pfr.gov.ru^
 ||fss.ru^
 ||oms.ru^
-||minzdrav.gov.ru^
 ||rosminzdrav.ru^
 ||crb.ru^
 ||zdrav.mos.ru^
@@ -239,9 +293,7 @@
 ||profmedik.ru^
 
 ! --- Транспорт, инфраструктура ---
-||rzd.ru^
 ||rzd-partner.ru^
-||aeroflot.ru^
 ||rossiya-airlines.com^
 ||pobeda.aero^
 ||s7.ru^
@@ -252,6 +304,7 @@
 ||motori.ru^
 ||transport.mos.ru^
 ||mosmetro.ru^
+||mosgortrans.ru^
 ||mostransavto.ru^
 ||mtdi.ru^
 ||rosavtodor.gov.ru^
