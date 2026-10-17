@@ -1,4 +1,4 @@
-! Title: RU State & Gov Blocklist (full)
+! Title: RU State & Gov Blocklist (perfect)
 ! Description: Блокировка государственных порталов, госкорпораций и связанных сервисов РФ
 ! Syntax: AdBlock
 ! Updated: 2026-10-17
@@ -44,9 +44,6 @@
 ||rosguard.gov.ru^
 ||genproc.gov.ru^
 ||sledcom.ru^
-||vsrf.ru^
-||arbitr.ru^
-||sudrf.ru^
 
 ! --- Госзакупки ---
 ||zakupki.gov.ru^
@@ -217,6 +214,7 @@
 ||wb.ru^
 ||wbbasket.ru^
 ||wbstatic.net^
+||geobasket.ru^
 ||rwb.ru^
 ||marketplace-sentry.wb.ru^
 ||avito.ru^
