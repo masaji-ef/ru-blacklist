@@ -1,10 +1,7 @@
-! Title: RU State & Gov Blocklist (improved)
+! Title: RU State & Gov Blocklist (full)
 ! Description: Блокировка государственных порталов, госкорпораций и связанных сервисов РФ
 ! Syntax: AdBlock
 ! Updated: 2026-10-17
-! Changes: добавлены CDN-домены (avito.st, wbbasket.ru, yastatic.net и т.д.),
-!          устранены дубликаты, добавлены госзакупки, суды, МФЦ, ЖКХ, ЕГЭ,
-!          расширены банки, телеком, маркетплейсы.
 
 ! --- Государственные порталы и сервисы ---
 ||gosuslugi.ru^
@@ -148,6 +145,7 @@
 ||userapi.com^
 ||mycdn.me^
 ||ok.ru^
+||okcdn.ru^
 ||mail.ru^
 ||dzen.ru^
 ||rutube.ru^
@@ -201,6 +199,7 @@
 ||tinkoff.ru^
 ||tinkoff.com^
 ||tbank.ru^
+||tbank-online.com^
 ||tcsbank.ru^
 ||raiffeisen.ru^
 ||unicreditbank.ru^
@@ -212,11 +211,13 @@
 ||p.ozon.ru^
 ||sentry.ozon.ru^
 ||cdn1.ozone.ru^
+||ozonusercontent.com^
 ||wildberries.ru^
 ||wildberries.com^
 ||wb.ru^
 ||wbbasket.ru^
 ||wbstatic.net^
+||rwb.ru^
 ||marketplace-sentry.wb.ru^
 ||avito.ru^
 ||avito.st^
