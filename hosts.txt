@@ -1,4 +1,4 @@
-! Title: RU State & Gov Blocklist (perfect)
+! Title: RU State & Gov Blocklist (complete)
 ! Description: Блокировка государственных порталов, госкорпораций и связанных сервисов РФ
 ! Syntax: AdBlock
 ! Updated: 2026-10-17
@@ -6,27 +6,43 @@
 ! --- Государственные порталы и сервисы ---
 ||gosuslugi.ru^
 ||esia.gosuslugi.ru^
+||gu.spb.ru^
+||gosuslugi.mosreg.ru^
+||uslugi.mos.ru^
+||pgu.mos.ru^
+||gosuslugi.tatar.ru^
 ||nalog.gov.ru^
 ||nalog.ru^
 ||pfr.gov.ru^
 ||sfr.gov.ru^
 ||rosreestr.gov.ru^
+||rosreestr.ru^
 ||rkn.gov.ru^
+||rkn.ru^
 ||fssp.gov.ru^
 ||fssp.ru^
+||fssprus.ru^
 ||mvd.ru^
+||mvd.gov.ru^
 ||мвд.рф^
 ||xn--b1aew.xn--p1ai^
 ||fsb.ru^
+||fsb.gov.ru^
 ||fsin.gov.ru^
 ||fso.gov.ru^
 ||svr.gov.ru^
 ||mil.ru^
+||mil.gov.ru^
 ||minjust.gov.ru^
+||minjust.ru^
 ||customs.gov.ru^
+||customs.ru^
 ||fedsfm.ru^
+||fedsfm.gov.ru^
 ||digital.gov.ru^
+||digital.ru^
 ||grfc.ru^
+||grfc.gov.ru^
 ||gov.ru^
 ||government.ru^
 ||kremlin.ru^
@@ -52,6 +68,10 @@
 ||roseltorg.ru^
 ||etp-ets.ru^
 ||zakupki.mos.ru^
+||zakupki.kontur.ru^
+||tektorg.ru^
+||fabrikant.ru^
+||b2b-center.ru^
 
 ! --- Суды и правосудие ---
 ||sudact.ru^
@@ -67,21 +87,30 @@
 ||штрафы.рф^
 ||xn--80aebehcb1a.xn--p1ai^
 ||mfc.ru^
+||mfc.mos.ru^
+||mfc.spb.ru^
+||mfc.tatar.ru^
 ||моидокументы.рф^
 ||xn--80aighcahqk.xn--p1ai^
 ||md.mos.ru^
 
 ! --- ЖКХ ---
 ||dom.gosuslugi.ru^
+||dom.mos.ru^
+||zhkh.mos.ru^
 ||gis-zhkh.ru^
 ||zhkh.gov.ru^
 
 ! --- Госкорпорации и компании с госучастием ---
 ||rostec.ru^
+||rostec.com^
 ||rosatom.ru^
+||rosatom.com^
 ||roscosmos.ru^
+||roscosmos.com^
 ||rusnano.com^
 ||rusnano.ru^
+||rusnano.net^
 ||vtb.ru^
 ||vtb.com^
 ||sberbank.ru^
@@ -89,6 +118,7 @@
 ||sber.ru^
 ||sbol.ru^
 ||gazprombank.ru^
+||gazprombank.com^
 ||psbank.ru^
 ||rshb.ru^
 ||rosselkhozbank.ru^
@@ -98,34 +128,55 @@
 ||russianpost.ru^
 ||pochta.ru^
 ||rzd.ru^
+||rzd.com^
 ||aeroflot.ru^
+||aeroflot.com^
 ||rosseti.ru^
+||rosseti.com^
 ||interrao.ru^
+||interrao.com^
 ||gazprom.ru^
+||gazprom.com^
 ||gazprom-media.ru^
 ||transneft.ru^
+||transneft.com^
 ||rosneft.ru^
+||rosneft.com^
 ||tatneft.ru^
+||tatneft.com^
 ||lukoil.ru^
+||lukoil.com^
 ||sibur.ru^
+||sibur.com^
 ||nornickel.ru^
+||nornickel.com^
 ||mmk.ru^
+||mmk.com^
 ||severstal.com^
+||severstal.ru^
 ||rusal.ru^
+||rusal.com^
 
 ! --- Связь, телеком, IT ---
 ||rt.ru^
 ||mts.ru^
 ||mts.com^
+||mtsbank.ru^
 ||megafon.ru^
 ||megafon.com^
+||megafon.pro^
 ||beeline.ru^
 ||beeline.com^
+||beeline.kz^
+||beeline.uz^
 ||tele2.ru^
 ||tele2.com^
+||tele2.kz^
 ||t2.ru^
+||t2.com^
 ||yota.ru^
 ||yota.com^
+||yota.net^
 ||ertelecom.ru^
 ||dom.ru^
 ||mvg.ru^
@@ -133,17 +184,28 @@
 ||yandex.net^
 ||yandex.com^
 ||yandex.cloud^
+||yandexcloud.net^
+||storage.yandexcloud.net^
+||yandex-team.ru^
 ||ya.ru^
 ||yastatic.net^
 ||vk.com^
 ||vk.ru^
 ||vk.me^
 ||vk-cdn.net^
+||vk-portal.net^
+||vkuservideo.net^
+||vkplay.ru^
+||vk.team^
 ||userapi.com^
 ||mycdn.me^
 ||ok.ru^
 ||okcdn.ru^
+||odnoklassniki.ru^
 ||mail.ru^
+||imgsmail.ru^
+||mradx.net^
+||my.com^
 ||dzen.ru^
 ||rutube.ru^
 ||rustore.ru^
@@ -172,6 +234,12 @@
 ||softline.com^
 ||rosinfocominvest.ru^
 ||nci.ru^
+||1c.ru^
+||1c.com^
+||abbyy.ru^
+||abbyy.com^
+||parallels.com^
+||acronis.com^
 
 ! --- Банки, страхование, финансы ---
 ||cbr.ru^
@@ -199,12 +267,21 @@
 ||tbank-online.com^
 ||tcsbank.ru^
 ||raiffeisen.ru^
+||raiffeisen.com^
 ||unicreditbank.ru^
+||unicredit.ru^
 ||citibank.ru^
+||citi.com^
+||alfabank.ru^
+||alfabank.com^
+||alfa.ru^
 
 ! --- Маркетплейсы, ритейл, агрегаторы ---
 ||ozon.ru^
 ||ozon.com^
+||ozon.by^
+||ozon.kz^
+||ozone.ru^
 ||p.ozon.ru^
 ||sentry.ozon.ru^
 ||cdn1.ozone.ru^
@@ -213,12 +290,20 @@
 ||wildberries.com^
 ||wb.ru^
 ||wbbasket.ru^
+||wbbasket.net^
 ||wbstatic.net^
+||wbxstatic.com^
+||wb-basket.ru^
 ||geobasket.ru^
 ||rwb.ru^
 ||marketplace-sentry.wb.ru^
 ||avito.ru^
 ||avito.st^
+||avito.com^
+||avito.by^
+||avito.kz^
+||avito.uz^
+||avito.ma^
 ||cian.ru^
 ||domclick.ru^
 ||kuper.ru^
@@ -251,10 +336,20 @@
 ||smotrim.ru^
 ||matchtv.ru^
 ||radiomayak.ru^
+||radiorus.ru^
 ||govoritmoskva.ru^
 ||moscow24.ru^
 ||tvzvezda.ru^
 ||zvezdaweekly.ru^
+||ntv.ru^
+||ren.tv^
+||5-tv.ru^
+||tvkultura.ru^
+||kommersant.ru^
+||iz.ru^
+||rg.ru^
+||vedomosti.ru^
+||forbes.ru^
 
 ! --- Образование, наука, культура ---
 ||edu.gov.ru^
@@ -262,8 +357,12 @@
 ||mon.gov.ru^
 ||school.ru^
 ||school.edu.ru^
+||school.mos.ru^
 ||ege.edu.ru^
+||ege.mos.ru^
 ||gia.edu.ru^
+||gia.mos.ru^
+||edu.mos.ru^
 ||mos.ru^
 ||gosuslugi.mos.ru^
 ||mosreg.ru^
@@ -287,6 +386,8 @@
 ||crb.ru^
 ||zdrav.mos.ru^
 ||emias.info^
+||emias.mos.ru^
+||med.mos.ru^
 ||mosmed.ai^
 ||medsestram.ru^
 ||profmedik.ru^
@@ -294,16 +395,28 @@
 ! --- Транспорт, инфраструктура ---
 ||rzd-partner.ru^
 ||rossiya-airlines.com^
+||rossiya-airlines.ru^
 ||pobeda.aero^
+||pobeda.ru^
 ||s7.ru^
+||s7airlines.net^
 ||utair.ru^
+||utair.com^
 ||azurair.ru^
+||azurair.com^
 ||nordstar.ru^
+||nordstar.com^
 ||yakutia.aero^
+||yakutia.ru^
 ||motori.ru^
+||motori.com^
 ||transport.mos.ru^
+||t.mos.ru^
 ||mosmetro.ru^
 ||mosgortrans.ru^
+||mtppk.ru^
+||central-ppk.ru^
+||mcd.mos.ru^
 ||mostransavto.ru^
 ||mtdi.ru^
 ||rosavtodor.gov.ru^
