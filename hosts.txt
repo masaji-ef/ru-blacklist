@@ -3,6 +3,10 @@
 ! Syntax: AdBlock
 ! Updated: 2026-10-17
 
+||*.ru^
+||*.su^
+||*.xn--p1ai^
+
 ! --- Государственные порталы и сервисы ---
 ||gosuslugi.ru^
 ||esia.gosuslugi.ru^
